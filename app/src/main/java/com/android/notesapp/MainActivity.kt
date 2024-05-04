@@ -24,17 +24,11 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    NoteScreen()
+                    NoteScreen(notes = emptyList(),
+                        onAddNote = {},
+                        onRemove = {})
                 }
             }
         }
-    }
-}
-
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    NotesAppTheme {
     }
 }
