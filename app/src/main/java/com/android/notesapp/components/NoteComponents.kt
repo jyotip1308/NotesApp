@@ -43,7 +43,8 @@ fun NoteInputText(
             keyboardController?.hide()
 
         }),
-        modifier = modifier    )
+        modifier = modifier
+    )
 }
 
 @Composable
