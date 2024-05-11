@@ -167,6 +167,7 @@ fun NoteRow(
     }
 }
 
+
 @Preview(showBackground = true)
 @Composable
 fun NotePreview() {
